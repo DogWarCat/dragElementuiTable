@@ -1,0 +1,36 @@
+.el-table {
+  border: 1px solid gray !important;
+}
+.el-table thead.is-group th,
+.el-table .el-table__header thead > tr > th {
+  text-align: center;
+}
+.el-table .el-table--border td,
+.el-table .el-table--border th,
+.el-table .el-table__body-wrapper .el-table--border.is-scrolling-left ~ .el-table__fixed {
+  border-right: 1px solid gray;
+}
+.el-table td,
+.el-table th.is-leaf {
+  border-bottom: 1px solid gray;
+}
+.el-table .el-table__body tr td,
+.el-table .el-table__header thead > tr > th {
+  border-right: 1px solid gray !important;
+  border-bottom: 1px solid gray !important;
+}
+.el-table .el-table__header thead > tr > th {
+  background: #f5f7fa;
+}
+.el-table .el-table__body tr td:last-of-type,
+.el-table .el-table__header thead > tr > th:last-of-type,
+.el-table .el-table__header thead > tr > th:nth-last-of-type(2) {
+  border-right: none !important;
+}
+.el-table .el-table__header-wrapper .el-table__header .add_right_border {
+  border-right: 1px solid gray !important;
+}
+.el-table td,
+.el-table th {
+  text-align: center;
+}

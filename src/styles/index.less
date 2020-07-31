@@ -1,0 +1,44 @@
+.el-table {
+    border: 1px solid gray !important;
+  
+    thead.is-group th,
+    .el-table__header thead > tr > th {
+      text-align: center;
+    }
+  
+    .el-table--border td,
+    .el-table--border th,
+    .el-table__body-wrapper .el-table--border.is-scrolling-left ~ .el-table__fixed {
+      border-right: 1px solid gray;
+    }
+  
+    td,
+    th.is-leaf {
+      border-bottom: 1px solid gray;
+    }
+  
+    .el-table__body tr td,
+    .el-table__header thead > tr > th {
+      border-right: 1px solid gray !important;
+      border-bottom: 1px solid gray !important;
+    }
+  
+    .el-table__header thead > tr > th {
+      background: #f5f7fa;
+    }
+  
+    .el-table__body tr td:last-of-type,
+    .el-table__header thead > tr > th:last-of-type,
+    .el-table__header thead > tr > th:nth-last-of-type(2) {
+      border-right: none !important;
+    }
+  
+    .el-table__header-wrapper .el-table__header .add_right_border {
+      border-right: 1px solid gray !important;
+    }
+  
+    td,
+    th {
+      text-align: center;
+    }
+  }
